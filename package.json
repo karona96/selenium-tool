@@ -1,0 +1,28 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "Selenium tool testing automactic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mocha --recursive --timeout 10000 index.js",
+    "hub": "java -jar selenium-server-standalone-3.0.1.jar -role hub -hubConfig hubConfig.json -debug",
+    "node": "java -jar selenium-server-standalone-3.0.1.jar -role node -hub http://localhost:4444",
+    "chrome": "java -Dwebdriver.chrome.driver=chromedriver.exe -jar selenium-server-standalone-3.0.1.jar -role node -nodeConfig nodeConfig.json"
+  },
+  "keywords": [
+    "selenium",
+    "tool",
+    "testing",
+    "automatic"
+  ],
+  "author": "Karona",
+  "license": "MIT",
+  "dependencies": {
+    "chromedriver": "^79.0.0",
+    "geckodriver": "^1.19.1",
+    "mocha": "^7.0.0",
+    "selenium-standalone": "^6.17.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}

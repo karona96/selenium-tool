@@ -1,0 +1,6 @@
+16:18:48.210 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+16:18:48.211 INFO - Launching Selenium Grid hub
+16:18:49.121 INFO - Will listen on 4444
+16:22:04.457 INFO - Selenium build info: version: '3.0.1', revision: '1969d75'
+16:22:04.457 INFO - Launching Selenium Grid hub
+16:22:05.223 INFO - Will listen on 4444
